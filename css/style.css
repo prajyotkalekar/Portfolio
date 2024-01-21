@@ -91,7 +91,7 @@ ul
 
 .section-title h2 span
 {
-    color: blue;
+    color: darkmagenta;
 }
 
 .row
@@ -115,6 +115,7 @@ ul
     border: none;
     background: #000;
     transition: all 0.2s ease-in;
+    box-shadow: 1px 4px 20px #000;
 }
 
 .btn:hover
@@ -242,6 +243,7 @@ ul
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
+    background-color: white;
 }
 
 .home .home-info
@@ -356,6 +358,11 @@ h3.my-profession
 }
 
 /* About */
+.about
+{
+    background-color: azure;
+}
+
 .about .about-content
 {
     flex: 0 0 100%;
@@ -416,3 +423,28 @@ h3.my-profession
 {
     margin-top: 30px;
 }
+
+/* Education */
+.education
+{
+    background-color: white;
+}
+/* .education .section-title h2 span
+{
+    color: yellow;
+} */
+
+.education .section-title p
+{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.education .edu
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
