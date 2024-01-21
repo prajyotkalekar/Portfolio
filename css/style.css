@@ -44,6 +44,11 @@ ul
     opacity: 1;
 }
 
+.hidden
+{
+    display: none !important;
+}
+
 .main-content
 {
     padding-left: 250px;
@@ -62,6 +67,33 @@ ul
     margin: auto;
 }
 
+.section .container
+{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.section-title
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+.section-title h2
+{
+    font-size: 30px;
+    /* color: var(--text-black-900); */
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+
+.section-title h2 span
+{
+    color: blue;
+}
+
 .row
 {
     display: flex;
@@ -76,18 +108,18 @@ ul
     font-size: 16px;
     font-weight: 500;
     padding: 10px 30px;
-    color: #f2f2fc;
+    color: var(--bg-white-900);
     border-radius: 40px;
     display: inline-block;
     white-space: nowrap;
     border: none;
     background: #000;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in;
 }
 
 .btn:hover
 {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 /* aside */
@@ -221,20 +253,21 @@ ul
 h3.hello
 {
     font-size: 30px;
-    margin: 15px 0;
     color: #000;
 }
 
-h1.hello span
+h3.name
 {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 700;
+    color: #000;
+
 }
 
 h3.my-profession
 {
     font-size: 30px;
-    margin: 15px 0;
+    margin-bottom: 10px;
     color: #000;
 }
 
@@ -245,9 +278,40 @@ h3.my-profession
 
 .home-info p
 {
-    margin-bottom: 90px;
-    font-size: 20px;
+    margin-bottom: 60px;
+    font-size: 17px;
     color: var(--text-black-900);
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+
+    a {
+        text-decoration: none;
+        background: transparent;
+        color: #000;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s ease;
+        border: 2px solid var(--text-black-900);
+
+        i {
+            font-size: 23px;
+        }
+
+        &:hover {
+            color: #fff;
+            background: #000;
+            transform: translateY(-5px);
+        }
+    }
 }
 
 .home .home-img
@@ -280,7 +344,7 @@ h3.my-profession
     border-bottom: 10px solid var(--text-black-900);
     border-right: 10px solid var(--text-black-900);
     right: 30px;
-    bottom: 40px;
+    bottom: 75px;
     border-radius: 5px;
 }
 
@@ -289,4 +353,11 @@ h3.my-profession
     margin: auto;
     border-radius: 10px;
     height: 300px;
+}
+
+/* About */
+.about .about-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;  
 }
