@@ -520,8 +520,9 @@ h3.my-profession
 .education .edu .timeline-item .timeline-date1, 
 .education .edu .timeline-item .timeline-date2
 {
-    color: red;
+    color: green;
     font-size: 20px;
     font-weight: 500;
     margin-left: 200px;
 }
+
