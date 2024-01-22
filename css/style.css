@@ -115,12 +115,17 @@ ul
     border: none;
     background: #000;
     transition: all 0.2s ease-in;
-    box-shadow: 1px 4px 20px #000;
 }
 
 .btn:hover
 {
     transform: scale(1.08);
+    color: yellow;
+}
+
+.shadow-dark
+{
+    box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
 
 /* aside */
@@ -429,10 +434,11 @@ h3.my-profession
 {
     background-color: white;
 }
-/* .education .section-title h2 span
+
+.education .section-title h2 span
 {
-    color: yellow;
-} */
+    color: crimson;
+}
 
 .education .section-title p
 {
@@ -446,5 +452,79 @@ h3.my-profession
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+.education .edu .timeline-box1,
+.education .edu .timeline-box2
+{
+   flex: 0 0 100%;
+   max-width: 75%; 
+   margin-left: 150px;
+   margin-right: 50px;
+   background-color: lightgoldenrodyellow;
+   padding: 30px 15px;
+   border: 1px solid var(--bg-white-50);
+   border-radius: 10px;
+   width: 100%;
+   position: relative;
+   transition: all 0.2s ease-in;
+   cursor: pointer;
+}
+
+.education .edu .timeline-box1
+{
+    margin-top: -30px;
+}
+
+.education .edu .timeline-box2
+{
+   margin-top: 20px;
+}
+
+.education .edu .timeline-box1:hover,
+.education .edu .timeline-box2:hover
+{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(48,46,77,0.15) ;
+}
+
+.education .edu .timeline1 .timeline-item img
+{
+    width:23%;
+    position: absolute;   
+    border-radius: 10px;    
+} 
+
+.education .edu .timeline2 .timeline-item img
+{
+    width:23%;
+    position: absolute;   
+    border-radius: 10px;     
+} 
+
+.education .edu .timeline-item .timeline-title1, 
+.education .edu .timeline-item .timeline-title2
+{
+    color: navy;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 200px;
+}
+
+.education .edu .timeline-item .timeline-name1, 
+.education .edu .timeline-item .timeline-name2
+{
+    font-weight: 400;
+    margin-left: 200px;
+}
+
+.education .edu .timeline-item .timeline-date1, 
+.education .edu .timeline-item .timeline-date2
+{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
 
 
