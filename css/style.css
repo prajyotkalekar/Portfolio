@@ -56,8 +56,8 @@ ul
 
 .padd-15
 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .container
 {
@@ -242,7 +242,7 @@ ul
     margin-right: 10px;
 }
 
-/* Home */
+/* Home Section*/
 .home 
 {
     min-height: 100vh;
@@ -362,7 +362,7 @@ h3.my-profession
     height: 300px;
 }
 
-/* About */
+/* About Section*/
 .about
 {
     background-color: azure;
@@ -429,7 +429,7 @@ h3.my-profession
     margin-top: 30px;
 }
 
-/* Education */
+/* Education Section*/
 .education
 {
     background-color: white;
@@ -464,7 +464,6 @@ h3.my-profession
    padding: 30px 15px;
    border: 1px solid var(--bg-white-50);
    border-radius: 10px;
-   width: 100%;
    position: relative;
    transition: all 0.2s ease-in;
    cursor: pointer;
@@ -526,3 +525,104 @@ h3.my-profession
     margin-left: 200px;
 }
 
+/* Skills Section*/
+.skills
+{
+    background-color: indigo;
+}
+
+.skills .section-title h2
+{
+    color: white;
+}
+
+.skills .section-title h2 span
+{
+    color: yellow;
+}
+
+/* Experience Section*/
+.experience
+{
+    background-color: azure;
+}
+
+.experience .exp
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.experience .exp .timeline-box1
+{
+    flex: 0 0 100%;
+    max-width: 75%; 
+    margin-left: 150px;
+    margin-right: 50px;
+    background-color: lightgoldenrodyellow;
+    padding: 30px 15px;
+    border: 1px solid var(--bg-white-50);
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.experience .exp .timeline-box1:hover
+{
+    transform: scale(1.02);
+    box-shadow: 5px 5px 10px rgba(48,46,77,0.15);
+}
+
+.experience .exp .timeline1 .timeline-item img
+{
+    width:22%;
+    height: 70%;
+    position: absolute;   
+    border-radius: 10px; 
+    margin-top: -0.9%;
+} 
+
+.experience .exp .timeline-item .timeline-title1
+{
+    color: navy;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 200px;
+}
+
+.experience .exp .timeline-item .timeline-name1
+{   
+    font-weight: 400;
+    margin-left: 200px;
+}
+
+.experience .exp .timeline-item .timeline-date1
+{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
+/* Work Section*/
+.work
+{
+    background-color: darkblue;
+}
+
+.work .section-title h2
+{
+    color: white;
+}
+
+.work .section-title h2 span
+{
+    color: yellow;
+}
+
+/* Contact Section*/
+.contact
+{
+    background-color: azure;
+}
