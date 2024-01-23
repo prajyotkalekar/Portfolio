@@ -44,10 +44,10 @@ ul
     opacity: 1;
 }
 
-.hidden
+/* .hidden
 {
     display: none !important;
-}
+} */
 
 .main-content
 {
@@ -56,8 +56,8 @@ ul
 
 .padd-15
 {
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .container
 {
@@ -265,10 +265,9 @@ h3.hello
 
 h3.name
 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     color: #000;
-
 }
 
 h3.my-profession
@@ -278,7 +277,7 @@ h3.my-profession
     color: #000;
 }
 
-.typing
+h3.my-profession span
 {
     color: orangered;
 }
@@ -403,6 +402,7 @@ h3.my-profession
 {
     flex: 0 0 50%;
     max-width: 50%;
+    padding-left: 1.4%;
 }
 
 .about .about-content .personal-info .info-item p
@@ -420,7 +420,7 @@ h3.my-profession
 .about .about-content .personal-info .info-item p span
 {
     font-weight: 400;
-    margin-left: 4px;
+    margin-left: 1%;
     display: inline-block;
 }
 
@@ -506,14 +506,14 @@ h3.my-profession
     color: navy;
     font-size: 22px;
     font-weight: 600;
-    margin-left: 200px;
+    margin-left: 26%;
 }
 
 .education .edu .timeline-item .timeline-name1, 
 .education .edu .timeline-item .timeline-name2
 {
     font-weight: 400;
-    margin-left: 200px;
+    margin-left: 26%;
 }
 
 .education .edu .timeline-item .timeline-date1, 
@@ -522,7 +522,7 @@ h3.my-profession
     color: green;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 200px;
+    margin-left: 26%;
 }
 
 /* Skills Section*/
@@ -588,13 +588,13 @@ h3.my-profession
     color: navy;
     font-size: 22px;
     font-weight: 600;
-    margin-left: 200px;
+    margin-left: 25%;
 }
 
 .experience .exp .timeline-item .timeline-name1
 {   
     font-weight: 400;
-    margin-left: 200px;
+    margin-left: 25%;
 }
 
 .experience .exp .timeline-item .timeline-date1
@@ -602,7 +602,7 @@ h3.my-profession
     color: green;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 200px;
+    margin-left: 25%;
 }
 
 /* Work Section*/
