@@ -5,5 +5,5 @@ const typed = new Typed(".typing", {
     typeSpeed: 30,
     backSpeed: 30,
     backDelay: 500,
-    loop: true
+    loop: false
 });
