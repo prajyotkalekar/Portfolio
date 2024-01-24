@@ -370,7 +370,8 @@ h3.my-profession span
 .about .about-content
 {
     flex: 0 0 100%;
-    max-width: 100%;  
+    max-width: 100%;
+    padding-left: 0.5%;  
 }
 
 .about .about-content .about-text h3
@@ -483,7 +484,7 @@ h3.my-profession span
 .education .edu .timeline-box2:hover
 {
     transform: scale(1.02);
-    box-shadow: 5px 5px 10px rgba(48,46,77,0.15) ;
+    box-shadow: 5px 5px 10px rgba(48,46,77,0.15);
 }
 
 .education .edu .timeline1 .timeline-item img
@@ -541,28 +542,56 @@ h3.my-profession span
     color: yellow;
 }
 
-.skills .service-item1 .icon img,
-.skills .service-item2 .icon img,
-.skills .service-item3 .icon img,
-.skills .service-item4 .icon img,
-.skills .service-item5 .icon img,
-.skills .service-item6 .icon img,
-.skills .service-item7 .icon img,
-.skills .service-item8 .icon img
+.skills .service-item1,
+.skills .service-item6
 {
-    max-width: 15%;
+    padding-left: 9.5%;
 }
 
-.skills .service-item1 h4,
-.skills .service-item2 h4,
-.skills .service-item3 h4,
-.skills .service-item4 h4,
-.skills .service-item5 h4,
-.skills .service-item6 h4,
-.skills .service-item7 h4,
-.skills .service-item8 h4
+.skills .service-item1 .service-item1-inner,
+.skills .service-item6 .service-item6-inner,
+.skills .service-item .service-item-inner
 {
+    background-color: beige;
+    /* border: 1px solid rgb(5, 5, 49); */
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skills .service-item1 .service-item1-inner:hover,
+.skills .service-item6 .service-item6-inner:hover,
+.skills .service-item .service-item-inner:hover
+{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 10px rgba(48,46,77,0.15);
+    background-color: rgb(5, 5, 49);
     color: var(--bg-white-900);
+}
+
+.skills .service-item1 .service-item1-inner .icon,
+.skills .service-item6 .service-item6-inner .icon,
+.skills .service-item .service-item-inner .icon
+{
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin: 0 50px 50px ;
+}
+
+.skills .service-item1 .icon img,
+.skills .service-item6 .icon img,
+.skills .service-item .icon img
+{
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+.skills .service-item1 .service-item1-inner h4,
+.skills .service-item6 .service-item6-inner h4,
+.skills .service-item .service-item-inner h4
+{
+    margin-bottom: 20%;
 }
 
 /* Experience Section*/
