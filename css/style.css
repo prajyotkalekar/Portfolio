@@ -69,8 +69,11 @@ ul
 
 .section .container
 {
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 8%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    padding-left: 3%;
+    /* padding: 50px 0px 70px 20px; */
 }
 
 .section-title
@@ -545,7 +548,7 @@ h3.my-profession span
 .skills .service-item1,
 .skills .service-item6
 {
-    padding-left: 9.5%;
+    padding-left: 7.3%;
 }
 
 .skills .service-item1 .service-item1-inner,
