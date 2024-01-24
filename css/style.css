@@ -548,7 +548,7 @@ h3.my-profession span
 .skills .service-item1,
 .skills .service-item6
 {
-    padding-left: 7.3%;
+    padding-left: 7.5%;
 }
 
 .skills .service-item1 .service-item1-inner,
@@ -567,7 +567,7 @@ h3.my-profession span
 .skills .service-item .service-item-inner:hover
 {
     transform: scale(1.01);
-    box-shadow: 5px 5px 10px rgba(48,46,77,0.15);
+    box-shadow: 6px 10px 10px rgb(5, 5, 49);
     background-color: rgb(5, 5, 49);
     color: var(--bg-white-900);
 }
@@ -579,7 +579,7 @@ h3.my-profession span
   height: 60px;
   width: 60px;
   display: block;
-  margin: 0 50px 50px ;
+  margin: 0 50px 55px ;
 }
 
 .skills .service-item1 .icon img,
@@ -667,6 +667,11 @@ h3.my-profession span
     background-color: darkblue;
 }
 
+.work .container
+{
+    padding-bottom: 1%;
+}
+
 .work .section-title h2
 {
     color: white;
@@ -675,6 +680,57 @@ h3.my-profession span
 .work .section-title h2 span
 {
     color: yellow;
+}
+
+.work .project-item1,
+.work .project-item4
+{
+    padding-left: 5%;
+    /* margin-bottom: 6%; */
+}
+
+.work .project-item1 .project-item1-inner,
+.work .project-item4 .project-item4-inner,
+.work .project-item .project-item-inner
+{
+    background-color: beige;
+    /* border: 1px solid rgb(5, 5, 49); */
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.work .project-item1 .project-item1-inner:hover,
+.work .project-item4 .project-item4-inner:hover,
+.work .project-item .project-item-inner:hover
+{
+    transform: translateY(-10%);
+    box-shadow: 5px 5px 20px lightskyblue;
+}
+
+.work .project-item1 .project-item1-inner .icon,
+.work .project-item4 .project-item4-inner .icon,
+.work .project-item .project-item-inner .icon
+{
+  height: 50px;
+  width: 100px;
+  display: block;
+  margin: 0 100px 130px ;
+}
+
+.work .project-item1 .icon img,
+.work .project-item4 .icon img,
+.work .project-item .icon img
+{
+    max-width: 200%;
+    margin-top: 50%;
+    position: static;
+}
+
+.work .project-item1 .project-item1-inner h4,
+.work .project-item .project-item-inner h4
+{
+    margin-bottom: 15%;
 }
 
 /* Contact Section*/
