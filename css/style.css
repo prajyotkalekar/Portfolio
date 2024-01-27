@@ -755,6 +755,13 @@ h3.my-profession span
     margin-left: 5%;
 }
 
+.contact .contact-form .bg img
+{
+    width: 40%;
+    position: absolute;
+    margin: 4% 9% 5% 2%;
+}
+
 .contact .contact-form .form-item1
 {
     padding-left: 55%;
