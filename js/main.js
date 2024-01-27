@@ -6,7 +6,7 @@ function  downloadFile()
     const fileName = "RESUME.pdf";
 
     // path of the file
-    const filePath = "../Portfolio/CV/"; //relative path
+    //const filePath = "../Portfolio/CV/"; //relative path
     //const filePath = "C:\\projects\\Portfolio\\CV\\"; //absolute path 
 
     const a = document.createElement('a');
