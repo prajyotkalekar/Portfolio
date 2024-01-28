@@ -331,7 +331,7 @@ h3.my-profession span
     position: relative;
 }
 
-.home-img::before
+/* .home-img::before
 {
     content: '';
     position: absolute;
@@ -355,7 +355,7 @@ h3.my-profession span
     right: 30px;
     bottom: 75px;
     border-radius: 5px;
-}
+} */
 
 .home .home-img img
 {
@@ -552,8 +552,15 @@ h3.my-profession span
 }
 
 .skills .service-item1 .service-item1-inner,
+.skills .service-item2 .service-item2-inner,
+.skills .service-item3 .service-item3-inner,
+.skills .service-item4 .service-item4-inner,
+.skills .service-item5 .service-item5-inner,
 .skills .service-item6 .service-item6-inner,
-.skills .service-item .service-item-inner
+.skills .service-item7 .service-item7-inner,
+.skills .service-item8 .service-item8-inner,
+.skills .service-item9 .service-item9-inner,
+.skills .service-item10 .service-item10-inner
 {
     background-color: beige;
     /* border: 1px solid rgb(5, 5, 49); */
@@ -563,8 +570,15 @@ h3.my-profession span
 }
 
 .skills .service-item1 .service-item1-inner:hover,
+.skills .service-item2 .service-item2-inner:hover,
+.skills .service-item3 .service-item3-inner:hover,
+.skills .service-item4 .service-item4-inner:hover,
+.skills .service-item5 .service-item5-inner:hover,
 .skills .service-item6 .service-item6-inner:hover,
-.skills .service-item .service-item-inner:hover
+.skills .service-item7 .service-item7-inner:hover,
+.skills .service-item8 .service-item8-inner:hover,
+.skills .service-item9 .service-item9-inner:hover,
+.skills .service-item10 .service-item10-inner:hover
 {
     transform: scale(1.01);
     box-shadow: 6px 10px 10px rgb(5, 5, 49);
@@ -573,8 +587,15 @@ h3.my-profession span
 }
 
 .skills .service-item1 .service-item1-inner .icon,
+.skills .service-item2 .service-item2-inner .icon,
+.skills .service-item3 .service-item3-inner .icon,
+.skills .service-item4 .service-item4-inner .icon,
+.skills .service-item5 .service-item5-inner .icon,
 .skills .service-item6 .service-item6-inner .icon,
-.skills .service-item .service-item-inner .icon
+.skills .service-item7 .service-item7-inner .icon,
+.skills .service-item8 .service-item8-inner .icon,
+.skills .service-item9 .service-item9-inner .icon,
+.skills .service-item10 .service-item10-inner .icon
 {
   height: 60px;
   width: 60px;
@@ -583,16 +604,30 @@ h3.my-profession span
 }
 
 .skills .service-item1 .icon img,
+.skills .service-item2 .icon img,
+.skills .service-item3 .icon img,
+.skills .service-item4 .icon img,
+.skills .service-item5 .icon img,
 .skills .service-item6 .icon img,
-.skills .service-item .icon img
+.skills .service-item7 .icon img,
+.skills .service-item8 .icon img,
+.skills .service-item9 .icon img,
+.skills .service-item10 .icon img
 {
     max-width: 100%;
     margin-top: 25px;
 }
 
 .skills .service-item1 .service-item1-inner h4,
+.skills .service-item2 .service-item2-inner h4,
+.skills .service-item3 .service-item3-inner h4,
+.skills .service-item4 .service-item4-inner h4,
+.skills .service-item5 .service-item5-inner h4,
 .skills .service-item6 .service-item6-inner h4,
-.skills .service-item .service-item-inner h4
+.skills .service-item7 .service-item7-inner h4,
+.skills .service-item8 .service-item8-inner h4,
+.skills .service-item9 .service-item9-inner h4,
+.skills .service-item10 .service-item10-inner h4
 {
     margin-bottom: 20%;
 }
@@ -690,27 +725,35 @@ h3.my-profession span
 }
 
 .work .project-item1 .project-item1-inner,
+.work .project-item2 .project-item2-inner,
+.work .project-item3 .project-item3-inner,
 .work .project-item4 .project-item4-inner,
-.work .project-item .project-item-inner
+.work .project-item5 .project-item5-inner,
+.work .project-item6 .project-item6-inner
 {
     background-color: beige;
-    /* border: 1px solid rgb(5, 5, 49); */
     border-radius: 10px;
     text-align: center;
     transition: all 0.3s ease;
 }
 
 .work .project-item1 .project-item1-inner:hover,
+.work .project-item2 .project-item2-inner:hover,
+.work .project-item3 .project-item3-inner:hover,
 .work .project-item4 .project-item4-inner:hover,
-.work .project-item .project-item-inner:hover
+.work .project-item5 .project-item5-inner:hover,
+.work .project-item6 .project-item6-inner:hover
 {
-    transform: translateY(-10%);
-    box-shadow: 5px 5px 20px lightskyblue;
+    transform: translateY(-5%);
+    box-shadow: 2px 2px 10px lightskyblue;
 }
 
 .work .project-item1 .project-item1-inner .icon,
+.work .project-item2 .project-item2-inner .icon,
+.work .project-item3 .project-item3-inner .icon,
 .work .project-item4 .project-item4-inner .icon,
-.work .project-item .project-item-inner .icon
+.work .project-item5 .project-item5-inner .icon,
+.work .project-item6 .project-item6-inner .icon
 {
   height: 50px;
   width: 100px;
@@ -718,17 +761,24 @@ h3.my-profession span
   margin: 0 100px 130px ;
 }
 
-.work .project-item1 .icon img,
+/* .work .project-item1 .icon img,
+.work .project-item2 .icon img,
+.work .project-item3 .icon img,
 .work .project-item4 .icon img,
-.work .project-item .icon img
+.work .project-item5 .icon img,
+.work .project-item6 .icon img
 {
     max-width: 200%;
     margin-top: 50%;
     position: static;
-}
+} */
 
 .work .project-item1 .project-item1-inner h4,
-.work .project-item .project-item-inner h4
+.work .project-item2 .project-item2-inner h4,
+.work .project-item3 .project-item3-inner h4,
+.work .project-item4 .project-item4-inner h4,
+.work .project-item5 .project-item5-inner h4,
+.work .project-item6 .project-item6-inner h4
 {
     margin-bottom: 15%;
 }
@@ -785,16 +835,28 @@ h3.my-profession span
    height: 50px;
    border: 1px solid var(--text-black-900);
    border-radius: 5px;
-   background-color: azure;
+   background-color: rgb(243, 243, 243);
    padding: 12px 12px;
+}
+
+.contact .contact-form .form-item1 .form-control:focus,
+.contact .contact-form .form-item2 .form-control:focus,
+.contact .contact-form .form-item3 .form-control:focus
+{
+    box-shadow: 0 0 10px rgba(48,46,77,0.3);
 }
 
 .contact .contact-form .form-item4 .form-control
 {
     border: 1px solid var(--text-black-900);
     border-radius: 5px;
-    background-color: azure;
+    background-color: rgb(243, 243, 243);
     padding: 12px 12px;
+}
+
+.contact .contact-form .form-item4 .form-control:focus
+{
+    box-shadow: 0 0 20px rgba(48,46,77,0.3);
 }
 
 .contact .contact-form .form-item5
@@ -831,10 +893,107 @@ h3.my-profession span
 .contact .contact-form .form-item5 .form-group5 i
 {
     margin-left: 10%;
-    transition: transform 0.3s ease;
 }
 
-.contact .contact-form .form-item5 .form-group5 i:hover
+/* Responsive */
+/* Media Query */
+
+@media (max-width:1199px)
 {
-    transform: scale(1.03);
+    .aside
+    {
+        left: -270px;
+    }
+    .main-content
+    {
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span
+    {
+        display: block;
+    }
+}
+
+@media (max-width:991px)
+{
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img img
+    {
+        margin-top: 15%;
+        margin-left: 75%;
+    }
+    .about .about-content
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .education .edu
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: -7%;
+    }
+    .skills
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .skills .service-item1
+    {
+        margin-left: 10%;
+    }
+    .skills .service-item4
+    {
+        margin-left: 16.5%;
+    }
+    .skills .service-item6
+    {
+        margin-left: -6.4%;
+    }
+    .skills .service-item7,
+    .skills .service-item10
+    {
+        margin-left: 16.4%;
+    }
+    .experience .exp 
+    {
+        margin-left: -7%;
+    }
+    .work .project-item1
+    {
+        margin-left: 3.5%;
+    }
+    .work .project-item3,
+    .work .project-item5
+    {
+        margin-left: 7.2%;
+    }
+    .work .project-item4
+    {
+        margin-left: -3.5%;
+    }
+    .contact .contact-form .bg img 
+    {
+        width: 0%;
+    }
+    .contact .contact-form .form-item1,
+    .contact .contact-form .form-item2,
+    .contact .contact-form .form-item3,
+    .contact .contact-form .form-item4
+    {
+        margin-left: -48%;
+        width: 99.1%;
+    }    
+    .contact .contact-form .form-item4 textarea
+    {
+        width: 200%;
+    }
+    .contact .contact-form .form-item5 .btn5    
+    {
+        margin-left: -30%;
+    }
 }
