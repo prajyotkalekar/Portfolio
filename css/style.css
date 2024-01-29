@@ -919,6 +919,14 @@ h3.my-profession span
     margin-left: 10%;
 }
 
+/* Footer Section */
+.footer
+{
+    background-color: rgb(3, 3, 44);
+    color: var(--bg-white-900);
+    max-height: 10vh;
+}
+
 /* Responsive */
 /* Media Query */
 
