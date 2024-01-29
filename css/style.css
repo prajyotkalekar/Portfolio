@@ -111,19 +111,22 @@ ul
     font-size: 16px;
     font-weight: 500;
     padding: 10px 30px;
-    color: var(--bg-white-900);
+    color: white;
     border-radius: 40px;
     display: inline-block;
     white-space: nowrap;
     border: none;
-    background: #000;
-    transition: all 0.2s ease-in;
+    background: darkblue;
+    box-shadow: 1px 1px 7px darkblue;
+    transition: all 0.2s ease;
 }
 
 .btn:hover
 {
-    transform: scale(1.08);
-    color: yellow;
+    color: white;
+    filter: brightness(150%);
+    cursor: pointer;
+    box-shadow: 1px 1px 7px darkblue;
 }
 
 .shadow-dark
@@ -231,14 +234,23 @@ ul
     display: block;
     border-bottom: 1px solid var(--bg-white-50);
     color: #000;
-    /* color: var(--text-black-900); */
     padding: 2px 15px;
+    cursor: pointer;
+
 }
 
 .aside .nav li a.active
 {
     color: orangered;
+    border-bottom: 1px solid orangered;    
 } 
+
+.aside .nav li a:hover
+{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+
+}
 
 .aside .nav li a i
 {
@@ -458,7 +470,8 @@ h3.my-profession span
 }
 
 .education .edu .timeline-box1,
-.education .edu .timeline-box2
+.education .edu .timeline-box2,
+.education .edu .timeline-box3
 {
    flex: 0 0 100%;
    max-width: 75%; 
@@ -483,29 +496,38 @@ h3.my-profession span
    margin-top: 20px;
 }
 
+.education .edu .timeline-box3
+{
+   margin-top: 20px;
+}
+
 .education .edu .timeline-box1:hover,
-.education .edu .timeline-box2:hover
+.education .edu .timeline-box2:hover,
+.education .edu .timeline-box3:hover
 {
     transform: scale(1.02);
     box-shadow: 5px 5px 10px rgba(48,46,77,0.15);
 }
 
-.education .edu .timeline1 .timeline-item img
+.education .edu .timeline1 .timeline-item img,
+.education .edu .timeline2 .timeline-item img
 {
     width:23%;
     position: absolute;   
     border-radius: 10px;    
 } 
 
-.education .edu .timeline2 .timeline-item img
+.education .edu .timeline3 .timeline-item img
 {
     width:23%;
+    height: 65%;
     position: absolute;   
-    border-radius: 10px;     
-} 
+    border-radius: 10px;  
+}
 
 .education .edu .timeline-item .timeline-title1, 
-.education .edu .timeline-item .timeline-title2
+.education .edu .timeline-item .timeline-title2,
+.education .edu .timeline-item .timeline-title3
 {
     color: navy;
     font-size: 22px;
@@ -514,14 +536,16 @@ h3.my-profession span
 }
 
 .education .edu .timeline-item .timeline-name1, 
-.education .edu .timeline-item .timeline-name2
+.education .edu .timeline-item .timeline-name2,
+.education .edu .timeline-item .timeline-name3
 {
     font-weight: 400;
     margin-left: 26%;
 }
 
 .education .edu .timeline-item .timeline-date1, 
-.education .edu .timeline-item .timeline-date2
+.education .edu .timeline-item .timeline-date2,
+.education .edu .timeline-item .timeline-date3
 {
     color: green;
     font-size: 20px;
@@ -878,16 +902,16 @@ h3.my-profession span
     border: none;
     border-radius: 5px;
     background-color: darkblue;
-    transition: all 0.2s ease-in;
+    transition: all 0.2s ease;
     box-shadow: 1px 1px 7px darkblue;
 }
 
 .btn5:hover
 {
     color: white;
-    background-color: green;
+    filter: brightness(150%);
     cursor: pointer;
-    box-shadow: 0 0 0;
+    box-shadow: 1px 1px 7px darkblue;
 }
 
 .contact .contact-form .form-item5 .form-group5 i
@@ -897,6 +921,8 @@ h3.my-profession span
 
 /* Responsive */
 /* Media Query */
+
+/* @media (min-width:1200px) */
 
 @media (max-width:1199px)
 {
@@ -911,6 +937,14 @@ h3.my-profession span
     .about .about-content .personal-info .info-item p span
     {
         display: block;
+    }
+    .contact .contact-form .form-item4 textarea
+    {
+        width: 104%;
+    }
+    .contact .contact-form .form-item5 .btn5    
+    {
+        margin-left: 4%;
     }
 }
 
