@@ -980,22 +980,18 @@ h3.my-profession span
     color: var(--bg-white-900);
 }
 
-.section p1 
+.footer p1 
 {
     margin-left: 40%;
 }
 
-.section p1 span
+.footer p1 span
 {
-    /* color: #f5cb32; */
     color: #f5cb32;
 }
 
 /* Responsive */
 /* Media Query */
-
-/* @media (min-width:1200px) */
-
 @media (max-width:1199px)
 {
     .aside
