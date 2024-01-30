@@ -985,6 +985,12 @@ h3.my-profession span
     margin-left: 40%;
 }
 
+.section p1 span
+{
+    /* color: #f5cb32; */
+    color: #f5cb32;
+}
+
 /* Responsive */
 /* Media Query */
 
