@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 :root
 {
@@ -38,7 +39,7 @@ ul
 .section
 {
     background: var(--bg-white-50);
-    min-height: 100vh;
+    height: 120vh;
     display: block;
     padding: 0 30px;
     opacity: 1;
@@ -260,7 +261,6 @@ ul
 /* Home Section*/
 .home 
 {
-    min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
     background-color: white;
@@ -924,7 +924,65 @@ h3.my-profession span
 {
     background-color: rgb(3, 3, 44);
     color: var(--bg-white-900);
-    max-height: 10vh;
+    height: 50vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .footer-row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3.5rem;
+    padding: 4%;
+}
+
+.footer .footer-row .footer-col h4
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer .footer-col .links
+{
+    margin: 10%;
+}
+
+.footer .footer-col .links li
+{
+    list-style: none;
+    margin-bottom: 5%;
+    margin-left: -10%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer .footer-col .links li:hover
+{
+    color: #f5cb32;
+}
+
+.footer .footer-col p
+{
+    margin: 3% 0;
+}
+
+.footer .footer-col .icons
+{
+    display: flex;
+    margin-top: 5%;
+    gap: 5%;
+    cursor: pointer;
+}
+
+.footer .footer-col .icons i
+{
+    color: var(--bg-white-900);
+}
+
+.section p1 
+{
+    margin-left: 40%;
 }
 
 /* Responsive */
