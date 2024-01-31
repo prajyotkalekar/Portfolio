@@ -924,7 +924,7 @@ h3.my-profession span
 {
     background-color: rgb(3, 3, 44);
     color: var(--bg-white-900);
-    height: 50vh;
+    height: 30vh;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -980,7 +980,7 @@ h3.my-profession span
     color: var(--bg-white-900);
 }
 
-.footer .footer-col .icons i:hover
+.footer .footer-col .icons:hover
 {
     color: #f5cb32;
 }
