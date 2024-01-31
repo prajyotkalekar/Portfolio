@@ -924,7 +924,7 @@ h3.my-profession span
 {
     background-color: rgb(3, 3, 44);
     color: var(--bg-white-900);
-    height: 30vh;
+    height: 10vh;
     font-family: 'Open Sans', sans-serif;
 }
 
