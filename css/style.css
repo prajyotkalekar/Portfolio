@@ -922,6 +922,7 @@ h3.my-profession span
 /* Footer Section */
 .footer
 {
+    height: 50vh;
     background-color: rgb(3, 3, 44);
     color: var(--bg-white-900);
     font-family: 'Open Sans', sans-serif;
@@ -982,8 +983,13 @@ h3.my-profession span
 
 .footer .footer-col .icons i:hover
 {
-    color: antiquewhite ;
+    color: antiquewhite;
     transform: scale(1.3);
+}
+
+.footer .footer-col .icons:hover
+{
+    color: #f5cb32;
 }
 
 .footer p1 
