@@ -7,15 +7,15 @@ function  downloadFile()
 
     // path of the file
     const filePath = "../Portfolio/CV/"; //relative path
-    //const filePath = "C:\\projects\\Portfolio\\CV\\"; //absolute path 
+    //const filePath = "C:\\projects\\Portfolio\\CV\\"; //absolute path
+    
+    const fileURL = filePath + fileName;
 
     const a = document.createElement('a');
-    a.href = filePath + fileName;
-    //a.download = fileName;
+    a.href = fileURL;
+    a.target = "_blank"; //open in a new tab
 
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
 }
-
-
