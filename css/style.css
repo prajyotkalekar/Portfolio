@@ -572,7 +572,7 @@ h3.my-profession span
 .skills .service-item1,
 .skills .service-item6
 {
-    padding-left: 7.5%;
+    padding-left: 8.5%;
 }
 
 .skills .service-item1 .service-item1-inner,
@@ -744,8 +744,7 @@ h3.my-profession span
 .work .project-item1,
 .work .project-item4
 {
-    padding-left: 5%;
-    /* margin-bottom: 6%; */
+    padding-left: 6%;
 }
 
 .work .project-item1 .project-item1-inner,
@@ -957,7 +956,12 @@ h3.my-profession span
     cursor: pointer;
 }
 
-.footer .footer-col .links li:hover
+.footer .footer-col .links li a
+{
+    color: #f2f2fc;
+}
+
+.footer .footer-col .links li a:hover
 {
     color: #f5cb32;
 }
@@ -1011,7 +1015,7 @@ h3.my-profession span
 
 /* Responsive */
 /* Media Query */
-@media (max-width:1199px)
+/* @media (max-width:1199px)
 {
     .aside
     {
@@ -1033,9 +1037,9 @@ h3.my-profession span
     {
         margin-left: 4%;
     }
-}
+} */
 
-@media (max-width:991px)
+/* @media (max-width:991px)
 {
     .home .home-info
     {
@@ -1117,4 +1121,4 @@ h3.my-profession span
     {
         margin-left: -30%;
     }
-}
+} */
