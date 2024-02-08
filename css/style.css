@@ -170,6 +170,13 @@ ul
     position: relative;
 }
 
+.aside .logo a sup
+{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
 .aside .nav-toggler
 {
     height: 40px;
