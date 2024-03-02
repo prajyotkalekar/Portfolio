@@ -1,7 +1,7 @@
 // Typing Animation
 
 const typed = new Typed(".typing", {
-    strings:["Computer Engineer...","Front-End Developer...","SQL Developer..."],
+    strings:["Computer Engineer...","SQL Developer Intern..."],
     typeSpeed: 50,
     backSpeed: 50,
     backDelay: 500,
