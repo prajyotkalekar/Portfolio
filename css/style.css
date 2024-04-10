@@ -649,12 +649,14 @@ h3.my-profession span
     max-width: 100%;
 }
 
-.experience .exp .timeline-box1
+.experience .exp .timeline-box1,
+.experience .exp .timeline-box2
 {
     flex: 0 0 100%;
     max-width: 75%; 
     margin-left: 150px;
     margin-right: 50px;
+    margin-bottom: 20px;
     background-color: lightgoldenrodyellow;
     padding: 30px 15px;
     border: 1px solid var(--bg-white-50);
@@ -664,13 +666,15 @@ h3.my-profession span
     cursor: pointer;
 }
 
-.experience .exp .timeline-box1:hover
+.experience .exp .timeline-box1:hover,
+.experience .exp .timeline-box2:hover
 {
     transform: scale(1.02);
     box-shadow: 5px 5px 10px rgba(48,46,77,0.15);
 }
 
-.experience .exp .timeline1 .timeline-item img
+.experience .exp .timeline1 .timeline-item img,
+.experience .exp .timeline2 .timeline-item img
 {
     width:22%;
     height: 70%;
@@ -679,7 +683,8 @@ h3.my-profession span
     margin-top: -0.9%;
 } 
 
-.experience .exp .timeline-item .timeline-title1
+.experience .exp .timeline-item .timeline-title1,
+.experience .exp .timeline-item .timeline-title2
 {
     color: navy;
     font-size: 22px;
@@ -687,13 +692,15 @@ h3.my-profession span
     margin-left: 25%;
 }
 
-.experience .exp .timeline-item .timeline-name1
+.experience .exp .timeline-item .timeline-name1,
+.experience .exp .timeline-item .timeline-name2
 {   
     font-weight: 400;
     margin-left: 25%;
 }
 
-.experience .exp .timeline-item .timeline-date1
+.experience .exp .timeline-item .timeline-date1,
+.experience .exp .timeline-item .timeline-date2
 {
     color: green;
     font-size: 20px;
