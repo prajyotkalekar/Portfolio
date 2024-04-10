@@ -350,32 +350,6 @@ h3.my-profession span
     position: relative;
 }
 
-/* .home-img::before
-{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--text-black-900);
-    border-left: 10px solid var(--text-black-900);
-    left: 30px;
-    top: -50px;
-    border-radius: 5px;
-}
-
-.home-img::after
-{
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--text-black-900);
-    border-right: 10px solid var(--text-black-900);
-    right: 30px;
-    bottom: 75px;
-    border-radius: 5px;
-} */
-
 .home .home-img img
 {
     margin: auto;
@@ -791,18 +765,6 @@ h3.my-profession span
   margin: 0 100px 130px ;
 }
 
-/* .work .project-item1 .icon img,
-.work .project-item2 .icon img,
-.work .project-item3 .icon img,
-.work .project-item4 .icon img,
-.work .project-item5 .icon img,
-.work .project-item6 .icon img
-{
-    max-width: 200%;
-    margin-top: 50%;
-    position: static;
-} */
-
 .work .project-item1 .project-item1-inner h4,
 .work .project-item2 .project-item2-inner h4,
 .work .project-item3 .project-item3-inner h4,
@@ -1024,108 +986,5 @@ h3.my-profession span
 /* Media Query */
 /* @media (max-width:1199px)
 {
-    .aside
-    {
-        left: -270px;
-    }
-    .main-content
-    {
-        padding-left: 0;
-    }
-    .about .about-content .personal-info .info-item p span
-    {
-        display: block;
-    }
-    .contact .contact-form .form-item4 textarea
-    {
-        width: 104%;
-    }
-    .contact .contact-form .form-item5 .btn5    
-    {
-        margin-left: 4%;
-    }
-} */
 
-/* @media (max-width:991px)
-{
-    .home .home-info
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .home .home-img img
-    {
-        margin-top: 15%;
-        margin-left: 75%;
-    }
-    .about .about-content
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .education .edu
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-left: -7%;
-    }
-    .skills
-    {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .skills .service-item1
-    {
-        margin-left: 10%;
-    }
-    .skills .service-item4
-    {
-        margin-left: 16.5%;
-    }
-    .skills .service-item6
-    {
-        margin-left: -6.4%;
-    }
-    .skills .service-item7,
-    .skills .service-item10
-    {
-        margin-left: 16.4%;
-    }
-    .experience .exp 
-    {
-        margin-left: -7%;
-    }
-    .work .project-item1
-    {
-        margin-left: 3.5%;
-    }
-    .work .project-item3,
-    .work .project-item5
-    {
-        margin-left: 7.2%;
-    }
-    .work .project-item4
-    {
-        margin-left: -3.5%;
-    }
-    .contact .contact-form .bg img 
-    {
-        width: 0%;
-    }
-    .contact .contact-form .form-item1,
-    .contact .contact-form .form-item2,
-    .contact .contact-form .form-item3,
-    .contact .contact-form .form-item4
-    {
-        margin-left: -48%;
-        width: 99.1%;
-    }    
-    .contact .contact-form .form-item4 textarea
-    {
-        width: 200%;
-    }
-    .contact .contact-form .form-item5 .btn5    
-    {
-        margin-left: -30%;
-    }
 } */
