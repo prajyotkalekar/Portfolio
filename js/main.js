@@ -3,7 +3,7 @@
 function  downloadFile() 
 {
     // name of the file
-    const fileName = "PRAJYOT_KALEKAR_RESUME.pdf";
+    const fileName = "Prajyot_Kalekar_Resume.pdf";
 
     // path of the file
     const filePath = "../Portfolio/CV/"; //relative path
