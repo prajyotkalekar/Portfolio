@@ -19,3 +19,10 @@ function  downloadFile()
     a.click();
     document.body.removeChild(a);
 }
+
+// Open Project 
+
+function openProject(url)
+{
+    window.open(url, '_blank');
+}
