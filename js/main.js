@@ -1,4 +1,4 @@
-// Download CV
+// Download Resume
 
 function  downloadFile() 
 {
