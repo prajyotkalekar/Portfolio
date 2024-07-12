@@ -1,4 +1,4 @@
-// Download CV
+// Download Resume
 
 function  downloadFile() 
 {
@@ -18,4 +18,11 @@ function  downloadFile()
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
+}
+
+// Open Project 
+
+function openProject(url)
+{
+    window.open(url, '_blank');
 }
