@@ -620,7 +620,7 @@ h3.my-profession span
 .skills .service-item10 .icon img
 {
     max-width: 100%;
-    margin-top: 25px;
+    margin-top: 45%;
 }
 
 .skills .service-item1 .service-item1-inner h4,
@@ -743,7 +743,6 @@ h3.my-profession span
 .work .project-item6 .project-item6-inner
 {
     background-color: beige;
-    border-radius: 10px;
     text-align: center;
     transition: all 0.3s ease;
 }
@@ -757,6 +756,7 @@ h3.my-profession span
 {
     transform: translateY(-5%);
     box-shadow: 2px 2px 10px lightskyblue;
+    color: red;
 }
 
 .work .project-item1 .project-item1-inner .icon,
@@ -770,6 +770,18 @@ h3.my-profession span
   width: 100px;
   display: block;
   margin: 0 100px 130px ;
+}
+
+.work .project-item1 .icon img,
+.work .project-item2 .icon img,
+.work .project-item3 .icon img,
+.work .project-item4 .icon img,
+.work .project-item5 .icon img,
+.work .project-item6 .icon img
+{
+    /* width: 300%; */
+    max-height: 300%;
+    margin: 0% 0% 0% -100%;
 }
 
 .work .project-item1 .project-item1-inner h4,
