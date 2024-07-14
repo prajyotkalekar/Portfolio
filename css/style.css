@@ -585,7 +585,7 @@ h3.my-profession span
 .skills .service-item10 .service-item10-inner:hover
 {
     transform: scale(1.01);
-    box-shadow: 6px 10px 10px rgb(5, 5, 49);
+    box-shadow: 6px 10px 10px   ;
     background-color: rgb(5, 5, 49);
     color: var(--bg-white-900);
 }
@@ -753,8 +753,8 @@ h3.my-profession span
 .work .project-item6 .project-item6-inner:hover
 {
     transform: translateY(-2%);
-    box-shadow: 2px 2px 10px lightskyblue;
-    color: red;
+    font-size: 18px;
+    box-shadow: 6px 6px 10px rgb(5, 5, 49);
     cursor: pointer;
 }
 
@@ -778,7 +778,7 @@ h3.my-profession span
 .work .project-item5 .icon img,
 .work .project-item6 .icon img
 {
-    width: 300%;
+    max-width: 300%;
     margin: 0% 0% 0% -100%;
 }
 
@@ -789,8 +789,7 @@ h3.my-profession span
 .work .project-item5 .project-item5-inner h4,
 .work .project-item6 .project-item6-inner h4
 {
-    margin-bottom: 15%;
-    opacity: 100%;
+    margin-bottom: 15%; 
 }
 
 /* Contact Section*/
