@@ -585,7 +585,7 @@ h3.my-profession span
 .skills .service-item10 .service-item10-inner:hover
 {
     transform: scale(1.01);
-    box-shadow: 6px 10px 10px   ;
+    box-shadow: 6px 10px 10px rgb(5, 5, 49);
     background-color: rgb(5, 5, 49);
     color: var(--bg-white-900);
 }
