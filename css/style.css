@@ -513,6 +513,7 @@ h3.my-profession span
     font-size: 22px;
     font-weight: 600;
     margin-left: 26%;
+    cursor: default;
 }
 
 .education .edu .timeline-item .timeline-name1, 
@@ -521,6 +522,7 @@ h3.my-profession span
 {
     font-weight: 400;
     margin-left: 26%;
+    cursor: default;
 }
 
 .education .edu .timeline-item .timeline-date1, 
@@ -531,6 +533,7 @@ h3.my-profession span
     font-size: 20px;
     font-weight: 500;
     margin-left: 26%;
+    cursor: default;
 }
 
 /* Skills Section*/
@@ -688,6 +691,7 @@ h3.my-profession span
     font-size: 22px;
     font-weight: 600;
     margin-left: 25%;
+    cursor: default;
 }
 
 .experience .exp .timeline-item .timeline-name1,
@@ -695,6 +699,7 @@ h3.my-profession span
 {   
     font-weight: 400;
     margin-left: 25%;
+    cursor: default;
 }
 
 .experience .exp .timeline-item .timeline-date1,
@@ -704,6 +709,7 @@ h3.my-profession span
     font-size: 20px;
     font-weight: 500;
     margin-left: 25%;
+    cursor: default;
 }
 
 /* Work Section*/
