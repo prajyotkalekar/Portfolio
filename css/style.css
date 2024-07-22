@@ -353,8 +353,8 @@ h3.my-profession span
 .home .home-img img
 {
     margin: auto;
-    border-radius: 10px;
-    height: 300px;
+    border-radius: 50%;
+    height: 350px;
 }
 
 /* About Section*/
