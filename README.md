@@ -3,6 +3,7 @@
 
 
 ![Home](https://github.com/prajyotkalekar/Portfolio/assets/141732867/62b66119-d61e-4367-b808-621b82988b2b)
+![Home](https://github.com/prajyotkalekar/Portfolio/assets/141732867/62b66119-d61e-4367-b808-621b82988b2b)
 ![About Me](https://github.com/prajyotkalekar/Portfolio/assets/141732867/87801b92-8f9a-4eff-afe6-f94f48438daa)
 ![My Education](https://github.com/prajyotkalekar/Portfolio/assets/141732867/32958e6b-9e83-4b29-b3b8-7cb7cd4cec4d)
 ![Skills](https://github.com/prajyotkalekar/Portfolio/assets/141732867/76a9dc12-991e-45a4-8271-eff9b54fd796)
